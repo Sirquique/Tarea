@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,serif;
+    margin-top: 100px;
+}
+
+#cajascontenidas-1,#cajascontenidas-2,#cajascontenidas-3{
+    position: relative;
+    top: 60px;
+    padding-left: 8px;
+    overflow: auto;
+}
+.p1{
+    border: 2px black solid;
+    background-color: salmon;
+    position: relative;
+    left: 75%;
+    width: 25%;
+    font-family: monospace,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,serif;
+    text-align: center;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.p2{
+    border: 1px black solid;
+    background-color: #d34949;
+    position: relative;
+    left: 75%;
+    width: 25%;
+    color: white;
+    font-family: monospace,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,serif;
+    text-align: center;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.p3{
+    border: 1px black solid;
+    background-color: rgb(255, 212, 132);
+    position: relative;
+    left: 75%;
+    width: 25%;
+    font-family: monospace,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,serif;
+    text-align: center;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+div{
+    font-family: monospace,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,serif;
+}
+
+#container{
+    width: 100%;
+}
+
+
+/********** Vista de la escritorio **********/
+@media (min-width: 992px){
+    #cajascontenidas-1,#cajascontenidas-2,#cajascontenidas-3{
+        float: left;
+        border: 3px black solid;
+        margin-left: 11px;
+        background-color: #8c8c8c;
+        height: 250px;
+        
+    }
+    
+    #cajascontenidas-1{
+        width: 32%;
+    }
+    #cajascontenidas-2{
+        width: 32%;
+    }
+    #cajascontenidas-3{
+        width: 32%;
+    }
+}
+
+
+/********** Vista de la tablet **********/
+
+@media (min-width: 768px) and (max-width: 991px){
+    #cajascontenidas-1,#cajascontenidas-2,#cajascontenidas-3{
+        float: left;
+        border: 3px black solid;
+        margin-left: 11px;
+        background-color: #8c8c8c;
+        margin-bottom: 15px;
+        height: 150px;
+
+    }
+    #cajascontenidas-1{
+        width: 48%;
+    }
+    #cajascontenidas-2{
+        width: 48%;
+    }
+    #cajascontenidas-3{
+        width: 97%;
+    }
+}
+
+/********** Vista del movil**********/
+
+@media (max-width: 767px){
+    #cajascontenidas-1,#cajascontenidas-2,#cajascontenidas-3{
+        float: left;
+        border: 3px black solid;
+        margin-left: 11px;
+        background-color: #8c8c8c;
+        margin-bottom: 15px;
+        height: 150px;
+    }
+    #cajascontenidas-1{
+        width: 97%;
+    }
+    #cajascontenidas-2{
+        width: 97%;
+    }
+    #cajascontenidas-3{
+        width: 97%;
+    }
+}
+
